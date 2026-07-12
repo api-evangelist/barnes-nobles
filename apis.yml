@@ -22,6 +22,8 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/barnes-nobles-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/BarnesandNoble
   - type: Website
@@ -40,6 +42,8 @@ common:
     url: https://www.barnesandnoble.com/h/terms-of-use
   - type: Contact
     url: https://www.barnesandnoble.com/h/help/contact
+  - url: https://www.barnesandnoble.com/blog/
+    type: Blog
   - type: Features
     data:
       - name: Affiliate Program
